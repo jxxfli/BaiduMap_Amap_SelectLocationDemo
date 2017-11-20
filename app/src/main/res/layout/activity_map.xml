@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical"
+              tools:context=".activity.GaodeMap_SelectAddressActivity">
+
+    <LinearLayout
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="@dimen/space_45dp"
+            android:layout_height="@dimen/space_45dp"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:src="@mipmap/fanhui_hei"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:text="@string/location"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:visibility="visible"/>
+
+        <!--<FrameLayout
+            android:visibility="gone"
+            android:id="@+id/searchLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5">
+
+            <EditText
+                android:id="@+id/search_input"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/space_30dp"
+                android:layout_marginTop="2dp"
+                android:hint="@string/location"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/search"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/search"/>
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/search_go_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/cling_button_normal"
+            android:text="@string/search"
+            android:textColor="#fff"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/success"
+            android:layout_width="@dimen/space_45dp"
+            android:layout_height="@dimen/space_45dp"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="@color/white"
+            android:src="@mipmap/af5"
+            android:visibility="gone"/>-->
+        <TextView
+            android:background="@drawable/bt_sbw"
+            android:id="@+id/success_tv"
+            android:textColor="@color/them_color"
+            android:textSize="@dimen/font_size_14sp"
+            android:gravity="center"
+            android:layout_width="@dimen/space_45dp"
+            android:layout_height="@dimen/space_45dp"
+            android:text="确定"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.amap.api.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/Marker_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@mipmap/baidu_poi"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+        <!--++++++++++++++++++++++++=搜索框—+++++++++++++++++++++++-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:elevation="2dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/act_baidu_edit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_45dp"
+                android:background="@drawable/shape_white_2dp_bg"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:background="@null"
+                    android:layout_marginLeft="@dimen/space_5dp"
+                    android:id="@+id/act_baidu_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:hint="请输入详细地址"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/space_10dp"
+                    android:paddingRight="@dimen/space_10dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"/>
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="0.1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/hint_color"/>
+                <Button
+                    android:id="@+id/act_baidu_search"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/act_baidu_edit"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/space_10dp"
+                    android:paddingRight="@dimen/space_10dp"
+                    android:imeOptions="actionDone"
+                    android:text="搜索"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:background="@drawable/bt_sbw"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:foreground="@drawable/bt_sbw"
+                android:elevation="2dp"
+                android:layout_below="@+id/act_baidu_edit_layout"
+                android:layout_alignParentRight="true"
+                android:id="@+id/act_aMap_back_location"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:src="@mipmap/navi_idle_gps_off"
+                android:textColor="@color/them_color"
+                android:background="@drawable/map_back_location_bg"/>
+
+            <ListView
+                android:scrollbars="none"
+                android:elevation="2dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_below="@+id/act_baidu_edit_layout"
+                android:id="@+id/mListView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@color/hint_color"
+                android:dividerHeight="0.5dp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

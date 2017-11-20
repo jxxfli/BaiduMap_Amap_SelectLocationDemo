@@ -1,0 +1,143 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="common_head_icon_width">50dp</dimen>
+    <dimen name="common_head_icon_height">50dp</dimen>
+    <dimen name="common_tab_height">50dp</dimen>
+    <dimen name="min_height_min">40dp</dimen>
+    <dimen name="min_height_small">44dp</dimen>
+    <dimen name="min_height_large">48dp</dimen>
+    <dimen name="min_height_small5">45dp</dimen>
+    <dimen name="min_height_small4">30dp</dimen>
+    <dimen name="min_height_small8">20dp</dimen>
+    <dimen name="min_height_small2">50dp</dimen>
+    <dimen name="min_height_small1">55dp</dimen>
+    <dimen name="super_height_small2">68dp</dimen>
+    <dimen name="super_height_small4">80dp</dimen>
+    <dimen name="super_height_small3">90dp</dimen>
+    <dimen name="super_height_small">100dp</dimen>
+    <dimen name="super_height_small5">180dp</dimen>
+    <dimen name="super_height_small1">190dp</dimen>
+    <dimen name="text_width">10dp</dimen>
+    <dimen name="text_width1">60dp</dimen>
+    <dimen name="text_width2">15dp</dimen>
+    <dimen name="text_width3">2dp</dimen>
+    <dimen name="small_width">1dp</dimen>
+    <dimen name="ratingbar">25dp</dimen>
+    <dimen name="super_small_width">0.5dp</dimen>
+    <dimen name="common_padding_small1">1dp</dimen>
+    <!-- 顶部 导航栏高度 -->
+    <dimen name="topbar_height">50dp</dimen>
+    <dimen name="menu_width">200dp</dimen>
+    <!-- 选择相册使用 -->
+    <!-- 应用边距尺寸 -->
+    <!-- 30 ~ 32px -->
+    <dimen name="choice_big_space">18dp</dimen>
+    <!-- 20 ~ 24px -->
+    <dimen name="choice_middle_space">14dp</dimen>
+    <!-- 14 ~ 18px -->
+    <dimen name="choice_small_space">8dp</dimen>
+    <!-- <14px -->
+    <dimen name="choice_tiny_space">4dp</dimen>
+
+    <!-- 顶部 导航栏标题字体大小 -->
+    <dimen name="topbar_textSize">20sp</dimen>
+    <!-- 顶部 导航栏标题字体大小 -->
+    <dimen name="topbar_right_textSize">18sp</dimen>
+
+    <!-- 标题栏字体大小 -->
+    <dimen name="common_font_title">20sp</dimen>
+    <!-- 偏超大号字体 -->
+    <dimen name="common_font_super_large">18sp</dimen>
+    <!-- 大号字体 -->
+    <dimen name="common_font_large">16sp</dimen>
+    <!-- 中号字体 -->
+    <dimen name="common_font_medium">14sp</dimen>
+    <!-- 小号字体 -->
+    <dimen name="common_font_small">12sp</dimen>
+    <!-- 超大内边距1 -->
+    <dimen name="common_padding_super_max_large">20dp</dimen>
+    <!-- 超大内边距 -->
+    <dimen name="common_padding_super_large">15dp</dimen>
+    <!-- 大内边距 -->
+    <dimen name="common_padding_large">12dp</dimen>
+    <!-- 中内边距 -->
+    <dimen name="common_padding_medium">8dp</dimen>
+    <dimen name="common_padding_medium2">7dp</dimen>
+    <!-- 小内边距 -->
+    <dimen name="common_padding_small">5dp</dimen>
+    <!-- 带边框的文字使用 -->
+    <dimen name="common_padding_mina">2dp</dimen>
+    <dimen name="common_padding_minb">4dp</dimen>
+    <!-- ListView最大分割线 -->
+    <dimen name="common_divider_height_super_large">10dp</dimen>
+    <dimen name="common_divider_height_super_medium">5dp</dimen>
+    <dimen name="common_divider_height_super_small">1dp</dimen>
+    <!-- 超超大外边距 -->
+    <dimen name="common_margin_super_max_large">30dp</dimen>
+
+    <!-- 超大外边距1 -->
+    <dimen name="common_margin_super_max_large1">20dp</dimen>
+    <!-- 超大外边距 -->
+    <dimen name="common_margin_super_large">15dp</dimen>
+    <!-- 大外边距 -->
+    <dimen name="common_margin_large">10dp</dimen>
+    <!-- 中外边据 -->
+    <dimen name="common_margin_medium">5dp</dimen>
+    <!-- 最小外边据 -->
+    <dimen name="common_margin_small">2dp</dimen>
+    <dimen name="common_margin_small1">3dp</dimen>
+    <dimen name="common_margin_small2">4dp</dimen>
+    <dimen name="common_drawable_padding_super_large">8dp</dimen>
+    <dimen name="common_drawable_padding_large">5dp</dimen>
+    <dimen name="common_drawable_padding_small">2dp</dimen>
+    <dimen name="ui_10_dip">10dip</dimen>
+    <dimen name="slidingmenu_offset">110dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <!-- 设置imageloader加载图片时的圆角度，在DefaultDisplayImageOptions工具类中使用了 -->
+    <dimen name="icon_rounded">5dp</dimen>
+    <dimen name="space_10dp">10dp</dimen>
+    <dimen name="textsize_15sp">15sp</dimen>
+    <dimen name="space_15dp">15dp</dimen>
+    <dimen name="space_20dp">20dp</dimen>
+    <dimen name="space_200dp">200dp</dimen>
+    <dimen name="font_12sp">12sp</dimen>
+    <dimen name="space_50dp">50dp</dimen>
+    <dimen name="space_5dp">5dp</dimen>
+    <dimen name="space_18dp">18dp</dimen>
+    <dimen name="space_65dp">65dp</dimen>
+    <dimen name="space_45dp">45dp</dimen>
+    <dimen name="space_30dp">30dp</dimen>
+    <dimen name="space_250dp">250dp</dimen>
+    <dimen name="Textwidth20">20dp</dimen>
+    <dimen name="Textwidth25">25dp</dimen>
+    <dimen name="Textwidth5">5dp</dimen>
+    <dimen name="TextSize20">20sp</dimen>
+    <dimen name="TextSize22">22sp</dimen>
+    <dimen name="TextSize18">18sp</dimen>
+    <dimen name="TextSize16">16sp</dimen>
+    <dimen name="TextSize14">14sp</dimen>
+    <dimen name="TextSize12">12sp</dimen>
+
+    <dimen name="dimen_0dp">0dp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_35dp">35dp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="dimen_150dp">150dp</dimen>
+
+    <dimen name="font_size_8sp">8sp</dimen>
+    <dimen name="font_size_10sp">10sp</dimen>
+    <dimen name="font_size_12sp">12sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_18sp">18sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+
+</resources>
